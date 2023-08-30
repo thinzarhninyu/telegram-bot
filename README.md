@@ -6,4 +6,4 @@
 
 
 ### in-progress
-- integrate database for conversation bot to widen the scope
+- more interactive features
