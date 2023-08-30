@@ -38,7 +38,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     else:
                         return
                 else:
-                    print('dm chat')
                     response = responses.handle_response(user_message)
                     
     await update.message.reply_text(response) 
